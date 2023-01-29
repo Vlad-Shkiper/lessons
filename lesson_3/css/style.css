@@ -1,0 +1,65 @@
+/*Reset styles*/
+@import url(reset.css);
+/*Reset styles*/
+
+div {
+    color: green;
+}
+
+a {
+    color: blue;
+}
+
+.definition {
+    color: red;
+}
+
+#contents {
+    color: midnightblue;
+}
+
+
+
+div.text {
+    color: blueviolet;
+}
+
+.nexus.text {
+    color: darkorange;
+}
+
+
+.advantages,
+.critic {
+    color: springgreen;
+}
+
+.features p {
+    color: brown;
+}
+
+
+.develop .list {
+    color: aqua;
+}
+
+.ukr-loc * {
+    color: violet;
+}
+
+.features>h3 {
+    color: darkcyan;
+}
+
+
+.spread-in-the-world+div {
+    color: orange;
+}
+
+.nexus~div {
+    color: olive;
+}
+
+[class*="world"] {
+    color: darkmagenta;
+}
