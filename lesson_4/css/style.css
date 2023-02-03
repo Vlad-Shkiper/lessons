@@ -1,0 +1,288 @@
+/*Reset styles*/
+@import url(reset.css);
+/*Reset styles*/
+
+/*Підключення шрифтів*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-LightItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Light.woff2') format('woff2'),
+        url('../fonts/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: url('../fonts/LiberationSerif.woff2') format('woff2'),
+        url('../fonts/LiberationSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: url('../fonts/LiberationSerif-Italic.woff2') format('woff2'),
+        url('../fonts/LiberationSerif-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: url('../fonts/LiberationSerif-BoldItalic.woff2') format('woff2'),
+        url('../fonts/LiberationSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: url('../fonts/LiberationSerif-Bold.woff2') format('woff2'),
+        url('../fonts/LiberationSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunny Rewritten';
+    src: url('../fonts/GunnyRewritten.woff2') format('woff2'),
+        url('../fonts/GunnyRewritten.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+body {
+    padding: 5px;
+}
+
+.nav {
+    margin-left: -50px;
+    text-align: center;
+    font-size: 0;
+}
+
+h1 {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#emblem,
+#flag {
+    display: inline-block;
+    height: 63px;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-top: 2px solid #333;
+    overflow: visible;
+    text-align: center;
+}
+
+.contents {
+    font-size: 20px;
+}
+
+.contents .link {
+    text-shadow: 2px 2px 4px #333;
+}
+
+.definition {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.name {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+p {
+    font-size: 18px;
+    text-indent: 15px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Liberation Serif", serif;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 10px;
+    font-weight: 700;
+}
+
+ul,
+ol {
+    text-decoration: underline;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+figcaption {
+
+    color: black;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+#gen-geo~p {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    color: forestgreen;
+    line-height: 1.5;
+
+}
+
+#geology~p {
+    font-family: "Gilroy", sans-serif;
+    color: rgba(172, 5, 214, 0.842);
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+#climate~p {
+    font-family: "Lobster";
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    color: rgb(221, 15, 15);
+}
+
+#hydrology~p {
+    font-family: "Rubik Vinyl";
+    color: rgb(23, 39, 177);
+    font-weight: 700;
+}
+
+#flora-fauna~p {
+    font-family: "Liberation Serif", serif;
+    font-style: italic;
+}
+
+.history {
+    font-family: "Liberation Serif", serif;
+    font-weight: 700;
+}
+
+.politic {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-style: normal;
+    color: rgba(5, 214, 197, 0.842);
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.international-politic {
+    font-family: "Montserrat", sans-serif;
+    color: rgba(214, 165, 5, 0.842);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.economic {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(75, 218, 94, 0.842);
+    text-decoration: overline;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.transport {
+    font-family: "Gunny Rewritten", sans-serif;
+    color: rgba(184, 34, 54, 0.842);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.holidays {
+    font-family: "Gilroy", sans-serif;
+    color: rgba(28, 42, 167, 0.842);
+    text-decoration: line-through;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.interest-facts {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    color: rgba(14, 168, 173, 0.842);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.source {
+    font-family: "Gilroy", sans-serif;
+    font-style: italic;
+    color: rgba(149, 49, 173, 0.842);
+    font-size: 20px;
+    font-weight: 700;
+}
