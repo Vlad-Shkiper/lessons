@@ -1,0 +1,85 @@
+/* Reset styles */
+@import url(reset.css);
+
+main {
+    padding: 15px;
+}
+
+
+.border p {
+    max-width: 500px;
+    margin: 15px auto 15px;
+    padding: 5px;
+}
+
+
+.solid {
+    border: 2px solid rgb(18, 40, 235);
+    box-shadow: 5px 3px 10px 5px #454545;
+}
+
+.dotted {
+    border: 4px dotted rgb(22, 172, 84);
+    box-shadow: inset -3px -2px 5px 5px;
+}
+
+.dashed {
+    border: 3px dashed rgb(192, 14, 14);
+    border-radius: 10px 15px 20px 20px;
+    opacity: 0.4;
+}
+
+.border-img {
+    max-width: 100%;
+    margin: 10px 0px 10px;
+    border: 2px solid rgb(69, 12, 175);
+    box-shadow: 2px 3px 2px 3px;
+}
+
+.inline-border {
+    border: 3px dashed rgb(192, 14, 14);
+}
+
+.border-radius-block {
+    margin: 10px;
+    max-width: 500px;
+    height: 500px;
+    border-radius: 51% 49% 21% 79% / 33% 46% 54% 67%;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.border-radius-block p {
+    padding: 80px;
+
+}
+
+.inline-brdr {
+    background-color: brown;
+    border-radius: 15px;
+    box-shadow: 2px 3px 2px 3px rgb(41, 15, 133);
+
+
+}
+
+.border-radius-img {
+    margin-top: 10px;
+    max-width: 605px;
+    height: 605px;
+    border-radius: 50%;
+}
+
+
+.outline-block {
+    margin: 15px;
+    outline: 2px solid greenyellow;
+}
+
+.inline-outline {
+    outline: 3px dotted red
+}
+
+.outline-img {
+    visibility: hidden;
+    outline: 2px dashed blue;
+}
